@@ -1,7 +1,11 @@
 import _ from "lodash";
 import { AND, OR } from "#/utils";
 import { ChangeTypes, Encodings, encodings, GITHUB_HANDLE } from "src/domain";
-import { CriticalError, RequirementViolation, UnexpectedError } from "src/domain/exceptions";
+import {
+  CriticalError,
+  RequirementViolation,
+  UnexpectedError
+} from "src/domain/exceptions";
 import { Opaque } from "type-fest";
 
 /** includes a check for NaN and general falsey */

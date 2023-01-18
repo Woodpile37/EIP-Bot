@@ -141,7 +141,7 @@ export enum SavedRecord {
   /**
    * @summary: this pull request was approved by an editor but it still said that it was not
    *
-   * @description: 
+   * @description:
    * The bug here was a result of the fact that github limits the number of
    * responses it can return. At the time of this pull request the max number of
    * reviews that could be returned was 30. But there were closer to 60 on the
