@@ -271,6 +271,6 @@ describe("integration testing edgecases associated with editors", () => {
 
       await __MAIN_MOCK__();
       expect(setFailedMock).not.toBeCalled();
-    })
-  })
+    });
+  });
 });
