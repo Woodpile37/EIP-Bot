@@ -28,7 +28,9 @@ export type GithubSelf = PromiseValue<
 export type IssueComments = PromiseValue<
   ReturnType<Github["issues"]["listComments"]>
 >["data"];
-export type Review = PromiseValue<ReturnType<Github["pulls"]["listReviews"]>>["data"][number]
+export type Review = PromiseValue<
+  ReturnType<Github["pulls"]["listReviews"]>
+>["data"][number];
 
 // This was extracted directly from Octokit repo
 // node_modules/@octokit/openapi-types/generated/types.ts : 7513 - 7553
