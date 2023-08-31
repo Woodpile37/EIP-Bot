@@ -37,8 +37,8 @@
     "underscore": "^1.13.2"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-typescript": "^7.13.0",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-typescript": "^7.22.5",
     "@octokit/types": "^6.28.1",
     "@types/jest": "^28.1.6",
     "@types/node": "^18.7.1",
