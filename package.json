@@ -40,7 +40,7 @@
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-typescript": "^7.22.5",
     "@octokit/types": "^6.28.1",
-    "@types/jest": "^28.1.6",
+    "@types/jest": "^29.5.3",
     "@types/node": "^18.7.1",
     "@types/node-fetch": "^3.0.3",
     "@typescript-eslint/parser": "^4.31.1",
