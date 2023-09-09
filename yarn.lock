@@ -1551,12 +1551,13 @@
   dependencies:
     "@octokit/types" "^11.0.0"
 
-"@octokit/plugin-retry@^3.0.7":
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-retry/-/plugin-retry-3.0.9.tgz#ae625cca1e42b0253049102acd71c1d5134788fe"
-  integrity sha512-r+fArdP5+TG6l1Rv/C9hVoty6tldw6cE2pRHNGmFPdyfrc696R6JjrQ3d7HdVqGwuzfyrcaLAKD7K8TX8aehUQ==
+"@octokit/plugin-retry@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-retry/-/plugin-retry-6.0.0.tgz#4a83ca5d531bbd56e0822a644ab0ba4a3215f87a"
+  integrity sha512-a1/A4A+PB1QoAHQfLJxGHhLfSAT03bR1jJz3GgQJZvty2ozawFWs93MiBQXO7SL2YbO7CIq0Goj4qLOBj8JeMQ==
   dependencies:
-    "@octokit/types" "^6.0.3"
+    "@octokit/request-error" "^5.0.0"
+    "@octokit/types" "^11.0.0"
     bottleneck "^2.15.3"
 
 "@octokit/request-error@^2.0.5", "@octokit/request-error@^2.1.0":
