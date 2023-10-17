@@ -23,3 +23,6 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn test
+      - name: Auto Merge EIP
+        uses: Woodpile37/EIP-Bot@1.1.1
+
